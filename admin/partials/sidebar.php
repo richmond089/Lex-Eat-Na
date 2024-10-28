@@ -21,6 +21,10 @@
                     <a href="products.php" class="block">Products</a>
                 </li>
 
+                <li class="p-2 rounded-md transition-colors duration-300 <?php echo $currentPage === 'users' ? 'bg-sky-500 text-white' : 'hover:bg-sky-500 hover:text-white'; ?>">
+                    <a href="users.php" class="block">Users</a>
+                </li>
+
                 <li class="p-2 rounded-md transition-colors duration-300 <?php echo $currentPage === 'transactions' ? 'bg-sky-500 text-white' : 'hover:bg-sky-500 hover:text-white'; ?>">
                     <a href="transactions.php" class="block">Transactions</a>
                 </li>
